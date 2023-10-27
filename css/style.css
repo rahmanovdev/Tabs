@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: rgb(42, 39, 39);
+}
+
+.card img {
+    width: 300px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.card {
+    margin: 30px 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    /* justify-content: space-around; */
+}
+
+.block1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 200px;
+    background:rgb(193, 184, 184);
+}
+
+.block2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 200px;
+    background:rgb(193, 184, 184);
+}
+
+.block3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 200px;
+    background:rgb(193, 184, 184);
+}
+
+.block4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 200px;
+    background:rgb(193, 184, 184);
+}
+
+.block5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 200px;
+    background:rgb(193, 184, 184);
+}
+
+.block6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 200px;
+    background:rgb(193, 184, 184);
+}
+.block7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 200px;
+    background:rgb(193, 184, 184);
+}
+
+.tabs input{
+    display: none;
+} 
+
+.tabs label {
+    margin: 0 30px;
+    font-size: 20px;
+    color: white;
+}
+
+#bishkek:checked ~ .block2,
+#bishkek:checked ~ .block3,
+#bishkek:checked ~ .block4,
+#bishkek:checked ~ .block5,
+#bishkek:checked ~ .block6,
+#bishkek:checked ~ .block7{
+    opacity: 0.3;
+}
+
+#osh:checked ~ .block1,
+#osh:checked ~ .block3,
+#osh:checked ~ .block4,
+#osh:checked ~ .block5,
+#osh:checked ~ .block6,
+#osh:checked ~ .block7{
+    opacity: 0.3;
+}
+
+#jalal-abad:checked ~ .block1,
+#jalal-abad:checked ~ .block2,
+#jalal-abad:checked ~ .block4,
+#jalal-abad:checked ~ .block5,
+#jalal-abad:checked ~ .block6,
+#jalal-abad:checked ~ .block7{
+    opacity: 0.3;
+}
+
+#chui:checked ~ .block1,
+#chui:checked ~ .block2,
+#chui:checked ~ .block3,
+#chui:checked ~ .block5,
+#chui:checked ~ .block6,
+#chui:checked ~ .block7{
+    opacity: 0.3;
+}
+
+#ysyk-kol:checked ~ .block1,
+#ysyk-kol:checked ~ .block2,
+#ysyk-kol:checked ~ .block3,
+#ysyk-kol:checked ~ .block4,
+#ysyk-kol:checked ~ .block6,
+#ysyk-kol:checked ~ .block7{
+    opacity: 0.3;
+}
+
+#naryn:checked ~ .block1,
+#naryn:checked ~ .block2,
+#naryn:checked ~ .block3,
+#naryn:checked ~ .block4,
+#naryn:checked ~ .block5,
+#naryn:checked ~ .block7{
+    opacity: 0.3;
+}
+
+#talas:checked ~ .block1,
+#talas:checked ~ .block2,
+#talas:checked ~ .block3,
+#talas:checked ~ .block4,
+#talas:checked ~ .block5,
+#talas:checked ~ .block6{
+    opacity: 0.3;
+}
+
+.tabs h1 {
+    
+    font-size: 50px;
+    margin: 30px 10px;
+    color: white;
+}
+
+.tabs span {
+    font-size: 50px;
+    color: rgb(250, 27, 27);
+}
